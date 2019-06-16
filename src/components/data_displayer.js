@@ -49,7 +49,7 @@ class DataDisplayer extends Component {
     return (
       <div className="data-display">
           <div className="city-name">
-            {this.props.city[this.props.city.length-1]}
+            {this.props.city[0]}
           </div>
           <div className="chart">
             <Chart data={data} max={max} min={min} type={this.state.type}/>
